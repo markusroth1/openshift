@@ -216,22 +216,7 @@
       <section>
         <h2>Deploying code changes</h2>
           <p>To change this application, update your code and rebuild/redeploy the image.</p>
-          <form>
-            <fieldset>
-              <legend>Location-hostname</legend>
-              <label for="urlSelect">Current URL:</label>
-              <input type="url" size="27" id="urlSelect" value="https://apps.ocp-cluster.org">
-              <input type="button" onclick="getHostname()" value="Get Hostname">
-             <div id="divDisplay"></div>
-           </fieldset>
-          </form>
-       <script>
-       var divDisplay = document.getElementById("divDisplay");
-       var urlSelect = document.getElementById("urlSelect");
-      function getHostname(){
-       divDisplay.textContent = 'Hostname: '+location.hostname;
-       }
-      </script>
+          
       </section>
     </section>
     <section class="col-xs-12 col-sm-6 col-md-6">
